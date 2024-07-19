@@ -220,7 +220,28 @@ class Solution {
     }
 }
 ```
+#### JavaScript
 
+let max = 0
+let sum =0
+
+for (let i = 0; i < arr.length;i++)
+{
+    for (let j = 0; j < arr[i].length; j++)
+    {
+        sum = sum + arr[i][j]
+            
+    }
+    if (sum > max)
+    {
+        max=sum
+    }
+    sum=0
+}
+return max;
+
+
+.......................................................
 <!-- tabs:end -->
 
 <!-- solution:end -->
